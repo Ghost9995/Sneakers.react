@@ -1,4 +1,4 @@
-import img from "../img/AdBanner.png"
+import img from "../img/ad.png"
 import "./AdBanner.css"
 function AdBanner() {
   return (

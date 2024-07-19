@@ -1,18 +1,49 @@
-
 .cards-wrapper {
-    margin-top: 40px;
-  }
-  
-  .cards-top h1 {
-    font-size: 32px;
-    line-height: 38px;
-    font-weight: 700;
-    color: black;
-  }
-  
-  .cards {
-    display: grid;
-    gap: 30px;
-    grid-template-columns: repeat(4, 1fr);
-    margin-top: 30px;
-  }
+  margin-top: 40px;
+}
+
+.cards-top h1 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 700;
+  color: black;
+}
+.cards-top .form-group {
+  overflow: hidden;
+  height: 45px;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid #f3f3f3;
+  position: relative;
+}
+.cards-top .form-group input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding-left: 46px;
+}
+.cards-top .form-group .icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+.cards-top .form-group input::placeholder {
+  font-size: 14px;
+  color: #c4c4c4;
+}
+.cards-top .form-group input:focus-visible {
+  outline: none;
+}
+
+.cards {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 30px;
+}
+.cards-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
